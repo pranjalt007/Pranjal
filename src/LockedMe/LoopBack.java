@@ -8,7 +8,7 @@ public class LoopBack {
 	{
 		try {
 		System.out.println("\n========================================================================\n");
-		System.out.println("\n ");
+		System.out.println("\n ***Select the vaild option***");
 		System.out.println("\n 1--Back to Sub Menu");
 		System.out.println("\n 2--Back to Main Menu");
 		System.out.println("\n 3--Close the Application");
@@ -29,16 +29,18 @@ public class LoopBack {
 
 		
 		case 3:
-			System.out.println("\n Closing your application........ \n Thank you!");
+			System.out.println("\n ***Application Closed***\n Thank you!");
 			System.exit(0);
+			break; 
+			
 		default:
-			System.out.println("\n invalid option! Please select option Between 1 to 3");
+			System.out.println("\n ***Invalid option! Please select vaild option***");
 			LoopBack.navigate();
 			break;
 	}
 	
 	}catch (InputMismatchException ex) {
-		System.out.println("\n Invalid input type! Please try again");
+		System.out.println("\n ***Invalid input type! Please try again***");
 		LoopBack.navigate();
 		
 }

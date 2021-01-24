@@ -12,7 +12,7 @@ package LockedMe;
 
 		public static void dfile() {
 			Scanner scanner = new Scanner( System.in );
-			 System.out.println("\n Please Enter The Directory Path:\n");
+			 System.out.println("\n Enter the directory or folder path (For eg:/home/pranjaltalukdar/Desktop/Project_testing/):\n");
 			 String dirPath = scanner.nextLine();
 			 File folder = new File(dirPath);
 			 if(folder.isDirectory())
@@ -31,26 +31,26 @@ package LockedMe;
 	        { 
 	        	
 	            Files.delete(path); 
-	            System.out.println("\n Deletion successful.\n");
+	            System.out.println("\n ***Deletion successful***.\n");
 	        } 
 	        catch(NoSuchFileException e) 
 	        { 
-	            System.out.println("\n No such file/directory exists\n"); 
+	            System.out.println("\n ***No such file/directory exists***\n"); 
 	        } 
 	        
 	        catch(IOException e) 
 	        { 
-	            System.out.println("\nInvalid permissions.\n"); 
+	            System.out.println("\n ***Invalid permissions***\n"); 
 	        } 
 	            
 			 }else
 				{
-				System.out.println("\nEmpty folder\n");	
+				System.out.println("\n  ***Empty folder***\n");	
 				}
 		}
 				else
 	    {
-	    	System.out.println("\npath not exist!\n");
+	    	System.out.println("\n ***path not exist!***\n");
 	    }
 		
 	    }
