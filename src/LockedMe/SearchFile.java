@@ -33,8 +33,6 @@ public class SearchFile {
             } if (flag == 0) { 
                 System.out.println(filename +"\nFile Not Exist\n"); 
         } 
-  
-            
         }else
         	{System.out.println("\nEmpty directory.\n"); 
         }      
