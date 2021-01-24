@@ -32,7 +32,7 @@ public class CreateFile {
 		
 			}
 		} else {
-			System.out.println("/n path not exist!");
+			System.out.println("\n path not exist!");
 		}
 	}
 }

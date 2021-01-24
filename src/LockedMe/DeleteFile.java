@@ -35,7 +35,7 @@ package LockedMe;
 	        } 
 	        catch(NoSuchFileException e) 
 	        { 
-	            System.out.println("\n ***No such file/directory exists***\n"); 
+	            System.out.println("\n ***No such file exists***\n"); 
 	        } 
 	        
 	        catch(IOException e) 
