@@ -8,7 +8,7 @@ public class SearchFile {
 	public static void Search()  
     { 
 		Scanner scanner = new Scanner( System.in );
-		 System.out.println("\nEnter the file path:\n");
+		 System.out.println("\nEnter the file path(For eg:/home/pranjaltalukdar/Desktop/Project_testing/):\n");
 		 String dirPath = scanner.nextLine();
 		 File folder = new File(dirPath);
         String[] flist = folder.list(); 
