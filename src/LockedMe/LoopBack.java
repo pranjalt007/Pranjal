@@ -9,26 +9,20 @@ public class LoopBack {
 		try {
 		System.out.println("\n========================================================================\n");
 		System.out.println("\n ***Select the vaild option***");
-		System.out.println("\n 1--Back to Sub Menu");
-		System.out.println("\n 2--Back to Main Menu");
-		System.out.println("\n 3--Close the Application");
+		System.out.println("\n 1--Back to Main Menu");
+		System.out.println("\n 2--Close the Application");
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("\n Enter your choice:\t");
 		int input = scanner.nextInt();
 		switch (input) {
-		
+			
 		case 1:
-			LockedMe.SelectSubOption();
-			
-			break;
-			
-		case 2:
 			LockedMe.SelectOption();
 			
 			break;
 
 		
-		case 3:
+		case 2:
 			System.out.println("\n ***Application Closed***\n Thank you!");
 			System.exit(0);
 			break; 
